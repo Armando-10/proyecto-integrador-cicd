@@ -1,3 +1,9 @@
 git config --global user.email "2022348004@uteq.edu.mx"
 git config --global user.name "Armando-10"
 
+git init
+git add .
+git commit -m "Proyecto integrador: API + pipeline CI/CD"
+git branch -M main
+git remote add origin https://github.com/Armando-10/proyecto-integrador-cicd.git
+git push -u origin main
