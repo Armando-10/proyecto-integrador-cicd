@@ -9,7 +9,7 @@ let nextId = 1;
 
 // 1. Estado del servicio
 app.get('/api/health', (req, res) => {
-  res.status(200).json({ status: 'lISTO', message: 'API funcionando - version 6' });
+  res.status(200).json({ status: 'LISTO', message: 'API funcionando - version 7' });
 });
 
 // 2. Listar usuarios
